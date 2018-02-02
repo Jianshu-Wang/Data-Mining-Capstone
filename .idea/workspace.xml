@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9fdd18-3800-4ad2-8c50-93776c15980e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Categories/Chicken_Wings.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Categories/Cocktail_Bars.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Categories/Coffee_&amp;_Tea.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Categories/Do-It-Yourself_Food.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Categories/Fast_Food.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Categories/Juice_Bars_&amp;_Smoothies.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Categories/Latin_American.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Categories/Live-Raw_Food.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Categories/Middle_Eastern.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Categories/Persian-Iranian.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Categories/Soul_Food.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Categories/Tea_Rooms.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Categories/Wine_Bars.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/result.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tfidfCalculation.py" afterPath="$PROJECT_DIR$/tfidfCalculation.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/noidfCalculation.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,17 +14,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tfidfCalculation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tfidfCalculation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tfidfCalculation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-473">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="1162">
+              <caret line="78" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="noidfCalculation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/noidfCalculation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,6 +50,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tfidfCalculation.py" />
+        <option value="$PROJECT_DIR$/noidfCalculation.py" />
       </list>
     </option>
   </component>
@@ -180,10 +185,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Categories/noidfCalculation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tfidfCalculation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-473">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="1162">
+          <caret line="78" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noidfCalculation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
