@@ -3,6 +3,8 @@ d2 = "films adapted from comic books have had plenty of success , whether they'r
 d3 = "every now and then a movie comes along from a suspect studio , with every indication that it will be a stinker , and to everybody's surprise ( perhaps even the studio ) the film becomes a critical darling . "
 d4 = "damn that y2k bug . "
 documents = [d1, d2, d3, d4]
+
+
 import nltk, string, numpy
 
 nltk.download('punkt')  # first-time use only
@@ -67,8 +69,7 @@ print cos_similarity_matrix
 
 import csv
 
-a = [[1,2,3,4],[5,6,7,8]]
 
 with open("result.csv","w+") as my_csv:
     csvWriter = csv.writer(my_csv,delimiter=',')
-    csvWriter.writerows(a)
+    csvWriter.writerows(cos_similarity_matrix)
