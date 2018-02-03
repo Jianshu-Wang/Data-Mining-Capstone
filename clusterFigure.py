@@ -1,6 +1,6 @@
 from numpy import genfromtxt
 
-my_data = genfromtxt('tfidfResult.csv', delimiter=',')
+my_data = genfromtxt('tfResult2_jaccard.csv', delimiter=',')
 
 # my_data = [[0], [3], [1]]
 
@@ -17,7 +17,7 @@ def spectral(k, D, rs):
     labels = spectral.labels_
     return labels
 
-k = 5
+k = 8
 label = spectral(k, my_data, None)
 labelStr = ''
 print label

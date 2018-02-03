@@ -1,2 +1,2 @@
-,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,3,4
-,French,Fondue,Ukrainian,Coffee & Tea,Wine Bars,Brazilian,Live-Raw Food,Seafood,Latin American,Tea Rooms,Cocktail Bars,Desserts,Burgers,Soul Food,Soup,Do-It-Yourself Food,Barbeque,Fast Food,Hawaiian,Juice Bars & Smoothies,Sandwiches,Chicken Wings,Middle Eastern,Russian,Indonesian,Shanghainese,Persian-Iranian,Kosher,Ramen,Donuts
+,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,3,4,5,6,7
+,Coffee & Tea,Wine Bars,Soul Food,Fondue,Soup,Do-It-Yourself Food,Ukrainian,Middle Eastern,Russian,Brazilian,Live-Raw Food,Indonesian,Ramen,Hawaiian,Latin American,Shanghainese,Juice Bars & Smoothies,Persian-Iranian,Kosher,Tea Rooms,Chicken Wings,Donuts,Cocktail Bars,Desserts,Barbeque,Fast Food,French,Sandwiches,Seafood,Burgers

@@ -74,7 +74,7 @@ print jaccard_similarity_matrix
 
 import csv
 
-with open("tfResult2.csv", "w+") as my_csv:
+with open("tfResult2_jaccard.csv", "w+") as my_csv:
     csvWriter = csv.writer(my_csv, delimiter=',')
     csvWriter.writerows(jaccard_similarity_matrix)
 

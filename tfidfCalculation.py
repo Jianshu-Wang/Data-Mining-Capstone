@@ -5,7 +5,7 @@
 # documents = [d1, d2, d3, d4]
 
 #fileName = "Burgers,French,Soul Food,Fondue,Soup,Do It Yourself Food,Ukrainian,Middle Eastern,Coffee & Tea,Wine Bars,Russian,Brazilian,Barbeque,Live Raw Food,Indonesian,Fast Food,Seafood,Ramen,Hawaiian,Latin American,Shanghainese,Juice Bars & Smoothies,Persian Iranian,Kosher,Sandwiches,Tea Rooms,Chicken Wings,Donuts,Cocktail Bars,Desserts"
-fileName = "French,Fondue,Ukrainian,Coffee & Tea,Wine Bars,Brazilian,Live Raw Food,Seafood,Latin American,Tea Rooms,Cocktail Bars,Desserts,Burgers,Soul Food,Soup,Do It Yourself Food,Barbeque,Fast Food,Hawaiian,Juice Bars & Smoothies,Sandwiches,Chicken Wings,Middle Eastern,Russian,Indonesian,Shanghainese,Persian Iranian,Kosher,Ramen,Donuts"
+fileName = "French,Coffee & Tea,Wine Bars,Barbeque,Desserts,Burgers,Fast Food,Soul Food,Fondue,Soup,Do It Yourself Food,Ukrainian,Middle Eastern,Russian,Brazilian,Live Raw Food,Indonesian,Ramen,Hawaiian,Latin American,Shanghainese,Juice Bars & Smoothies,Persian Iranian,Kosher,Tea Rooms,Chicken Wings,Donuts,Cocktail Bars,Sandwiches,Seafood"
 fileNameList = fileName.split(",")
 
 documents = []
@@ -102,6 +102,6 @@ print cos_similarity_matrix
 
 import csv
 
-with open("tfidfResult_clusters.csv","w+") as my_csv:
+with open("tfidfResult_clusters_Jarccard.csv","w+") as my_csv:
     csvWriter = csv.writer(my_csv,delimiter=',')
     csvWriter.writerows(cos_similarity_matrix)

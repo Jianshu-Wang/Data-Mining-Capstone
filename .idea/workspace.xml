@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9fdd18-3800-4ad2-8c50-93776c15980e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/clusterFigure.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/noidfCalculation2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tfidfCalculation2.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/noidfCalculation.py" afterPath="$PROJECT_DIR$/noidfCalculation.py" />
-      <change beforePath="$PROJECT_DIR$/tfResult.csv" afterPath="$PROJECT_DIR$/tfResult.csv" />
+      <change beforePath="$PROJECT_DIR$/clusterFigure.py" afterPath="$PROJECT_DIR$/clusterFigure.py" />
+      <change beforePath="$PROJECT_DIR$/clusters.txt" afterPath="$PROJECT_DIR$/clusters.txt" />
+      <change beforePath="$PROJECT_DIR$/noidfCalculation2.py" afterPath="$PROJECT_DIR$/noidfCalculation2.py" />
       <change beforePath="$PROJECT_DIR$/tfidfCalculation.py" afterPath="$PROJECT_DIR$/tfidfCalculation.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +20,8 @@
       <file leaf-file-name="tfidfCalculation2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tfidfCalculation2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="78" column="27" lean-forward="false" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+            <state relative-caret-position="788">
+              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -33,8 +30,8 @@
       <file leaf-file-name="clusterFigure.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clusterFigure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="276">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -43,8 +40,8 @@
       <file leaf-file-name="noidfCalculation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/noidfCalculation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="1050">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,8 +50,8 @@
       <file leaf-file-name="noidfCalculation2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/noidfCalculation2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="428">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +60,8 @@
       <file leaf-file-name="tfidfCalculation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tfidfCalculation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="262" lean-forward="false" selection-start-line="7" selection-start-column="262" selection-end-line="7" selection-end-column="262" />
               <folding />
             </state>
           </provider>
@@ -101,9 +98,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/noidfCalculation.py" />
-        <option value="$PROJECT_DIR$/noidfCalculation2.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/tfidfCalculation2.py" />
+        <option value="$PROJECT_DIR$/noidfCalculation2.py" />
         <option value="$PROJECT_DIR$/clusterFigure.py" />
         <option value="$PROJECT_DIR$/tfidfCalculation.py" />
       </list>
@@ -158,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tfidfCalculation">
+  <component name="RunManager" selected="Python.clusterFigure">
     <configuration name="clusterFigure" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,8 +274,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tfidfCalculation" />
-        <item index="1" class="java.lang.String" itemvalue="Python.clusterFigure" />
+        <item index="0" class="java.lang.String" itemvalue="Python.clusterFigure" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tfidfCalculation" />
         <item index="2" class="java.lang.String" itemvalue="Python.tfidfCalculation2" />
         <item index="3" class="java.lang.String" itemvalue="Python.test" />
         <item index="4" class="java.lang.String" itemvalue="Python.noidfCalculation2" />
@@ -360,14 +357,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/extractWords.py" />
     <entry file="file://$PROJECT_DIR$/Categories/noidfCalculation.py" />
-    <entry file="file://$PROJECT_DIR$/tfidfCalculation2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="78" column="27" lean-forward="false" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="673">
@@ -376,34 +365,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/noidfCalculation2.py">
+    <entry file="file://$PROJECT_DIR$/noidfCalculation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="1050">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/noidfCalculation.py">
+    <entry file="file://$PROJECT_DIR$/tfidfCalculation2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="788">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noidfCalculation2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clusterFigure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="276">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tfidfCalculation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="262" lean-forward="false" selection-start-line="7" selection-start-column="262" selection-end-line="7" selection-end-column="262" />
           <folding />
         </state>
       </provider>
