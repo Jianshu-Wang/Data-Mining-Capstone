@@ -16,6 +16,27 @@ for name in fileNameList:
         data = f.read().replace('\n', '')
         documents.append(data)
 
+
+
+#
+# import glob
+#
+# path = 'Categories/*.txt'
+# files = glob.glob(path)
+#
+# for name in files:
+#     try:
+#         with open(name) as f:
+#             data = f.read().replace('\n', '')
+#             documents.append(data)
+#     except IOError as exc:
+#         if exc.errno != errno.EISDIR:
+#             raise
+
+
+# with open('data.txt', 'r') as myfile:
+#     data=myfile.read().replace('\n', '')
+
 import nltk, string, numpy
 
 nltk.download('punkt')  # first-time use only
@@ -55,22 +76,32 @@ LemVectorizer.fit_transform(documents)
 print LemVectorizer.vocabulary_
 tf_matrix = LemVectorizer.transform(documents).toarray()
 print tf_matrix
+tf_matrix = tf_matrix*10000
+tf_matrix.shape
 
-cos_similarity_matrix = []
-from scipy import spatial
+from sklearn.feature_extraction.text import TfidfTransformer
 
-for x in range (0, len(tf_matrix)):
-    cos_similarity_matrix.append([])
-    for y in range(0,len(tf_matrix)):
-        result = 1 - spatial.distance.cosine(tf_matrix[x], tf_matrix[y])
-        cos_similarity_matrix[x].append(result)
+tfidfTran = TfidfTransformer(norm="l2")
+tfidfTran.fit(tf_matrix)
+print tfidfTran.idf_
+import math
+def idf(n, df):
+    result = math.log((n + 1.0) / (df + 1.0)) + 1
+    return result
 
 
+print "The idf for terms that appear in one document: " + str(idf(4, 1))
+print "The idf for terms that appear in two documents: " + str(idf(4, 2))
+tfidf_matrix = tfidfTran.transform(tf_matrix)
+print "The tfidf matrix is: "
+print tfidf_matrix.toarray()
+cos_similarity_matrix = (tfidf_matrix * tfidf_matrix.T).toarray()
 print "The cosine similarity matrix is: "
 print cos_similarity_matrix
 
+
 import csv
 
-with open("tfResult.csv", "w+") as my_csv:
-    csvWriter = csv.writer(my_csv, delimiter=',')
+with open("tfidfResult2.csv","w+") as my_csv:
+    csvWriter = csv.writer(my_csv,delimiter=',')
     csvWriter.writerows(cos_similarity_matrix)

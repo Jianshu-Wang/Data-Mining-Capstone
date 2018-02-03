@@ -13,7 +13,7 @@ path = 'Categories/'
 for name in fileNameList:
     currentPath = path + name + '.txt'
     with open(currentPath) as f:
-        data = f.read().replace('\n', '')
+        data = f.read()  # .replace('\n', '')
         documents.append(data)
 
 import nltk, string, numpy
@@ -56,21 +56,27 @@ print LemVectorizer.vocabulary_
 tf_matrix = LemVectorizer.transform(documents).toarray()
 print tf_matrix
 
-cos_similarity_matrix = []
-from scipy import spatial
 
-for x in range (0, len(tf_matrix)):
-    cos_similarity_matrix.append([])
-    for y in range(0,len(tf_matrix)):
-        result = 1 - spatial.distance.cosine(tf_matrix[x], tf_matrix[y])
-        cos_similarity_matrix[x].append(result)
+import numpy as np
+from sklearn.metrics import jaccard_similarity_score
+
+jaccard_similarity_matrix = []
+
+for x in range(0, len(tf_matrix)):
+    jaccard_similarity_matrix.append([])
+    for y in range(0, len(tf_matrix)):
+        result = jaccard_similarity_score(tf_matrix[x], tf_matrix[y])
+        jaccard_similarity_matrix[x].append(result)
 
 
-print "The cosine similarity matrix is: "
-print cos_similarity_matrix
+print "test result:"
+print jaccard_similarity_matrix
 
 import csv
 
-with open("tfResult.csv", "w+") as my_csv:
+with open("tfResult2.csv", "w+") as my_csv:
     csvWriter = csv.writer(my_csv, delimiter=',')
-    csvWriter.writerows(cos_similarity_matrix)
+    csvWriter.writerows(jaccard_similarity_matrix)
+
+
+
